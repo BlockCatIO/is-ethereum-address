@@ -1,0 +1,27 @@
+{
+  "name": "is-ethereum-address",
+  "version": "1.0.2",
+  "description": "Ethereum address validator with no CryptoJS dependencies.",
+  "main": "build/ethereumAddress.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d build"
+  },
+  "keywords": ["ethereum-address", "ethereum", "validator"],
+  "author": "Giuseppe Burtini <g@blockcat.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blockcatio/is-ethereum-address"
+  },
+  "dependencies": {
+    "keccak": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^22.0.6",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.0.6"
+  }
+}
