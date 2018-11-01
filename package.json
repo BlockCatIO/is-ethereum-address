@@ -1,6 +1,6 @@
 {
   "name": "is-ethereum-address",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ethereum address validator with no CryptoJS dependencies.",
   "main": "build/ethereumAddress.js",
   "scripts": {
