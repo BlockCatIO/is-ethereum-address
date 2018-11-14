@@ -1,6 +1,6 @@
 {
   "name": "is-ethereum-address",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ethereum address validator with no CryptoJS dependencies.",
   "main": "build/ethereumAddress.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "babel-cli": "^6.26.0",
     "babel-jest": "^22.0.6",
     "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "jest": "^22.4.3"
   }
 }
